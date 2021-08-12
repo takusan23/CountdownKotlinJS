@@ -15,7 +15,7 @@ jobs:
       
       # 権限の変更
       - name: Grant permission
-        run: git update-index --chmod=+x gradlew
+        run: chmod +x ./gradlew
       
       # HTML書き出し（ビルド）
       - name: Making html
